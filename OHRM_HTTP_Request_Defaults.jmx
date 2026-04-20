@@ -101,8 +101,8 @@ Connect to 5s</stringProp>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="OHRM_Login_logout">
         <stringProp name="TestPlan.comments">Virtual Users Running Scenario 1. 
 Make test last 1 minute (see Scheduler)</stringProp>
-        <intProp name="ThreadGroup.num_threads">5</intProp>
-        <intProp name="ThreadGroup.ramp_time">45</intProp>
+        <intProp name="ThreadGroup.num_threads">6</intProp>
+        <intProp name="ThreadGroup.ramp_time">60</intProp>
         <longProp name="ThreadGroup.duration">60</longProp>
         <longProp name="ThreadGroup.delay">5</longProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
